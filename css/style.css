@@ -1,0 +1,21 @@
+@import "./header.css";
+@import "./wrapper.css";
+@import "./movies.css";
+@import "./content.css";
+
+:root{
+--color-text: #fffff;
+--bg:#e0218a;
+--font:Arial;
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior:smooth;
+}
+}
+body{
+    font-family: var(--font);
+    background: var(--bg);
+}
