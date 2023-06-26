@@ -6,7 +6,7 @@
 :root{
 --color-text: #fffff;
 --bg:#e0218a;
---font:Arial;
+--font:Roboto;
 *{
     margin: 0;
     box-sizing: border-box;
