@@ -1,0 +1,15 @@
+.wrapper{
+    max-inline-size: 1280px;
+    padding: 0 16px;
+    margin: auto;
+}
+.Description{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.img-logo > img{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}

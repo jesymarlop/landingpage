@@ -4,17 +4,22 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
         <title>Landing Page Barbie</title>
     </head>
     <body>
         <header>
             <div>
-                <img scr="" alt="Logo">
-            </div>
-            <div>
-                <nav>
-                    <ul>
+                <nav class="navbar">
+                    <div class="logo_header">
+                    <a href="/">
+                        <img scr="" alt="Logo">
+                    </a>
+                    </div> 
+                    <ul class="navbar-ul">
                         <li>
                             <a href="#" target="_blank">About</a>
                         </li>
@@ -29,8 +34,8 @@
             </div>
         </header>
         <main class="wrapper"> 
-                <div>
-                    <img src="Barbie_logo.png" alt="Banner">
+                <div class="img-logo">
+                    <img src="./Media/Barbie_Logo.png" alt="Banner">
                 </div>
                 <section class="Description">
                     <div>
@@ -50,79 +55,86 @@
                         <div class="imagenes">
                             <div class="images-title">
                                 <div class="imagen">
-                                <img src="Barbie_y_la_magia_del_pegaso.jpg" alt="Barbie y la magia de pegaso">
+                                <img src="./Media/Barbie en el cascanueces.jpg" alt="Barbie en el cascanueces">
                             </div>
-                            <div>
-                                <p>Barbie y la magia de pegaso</p>
-                            </div>
-                            </div>
-                            <div class="images-title">
-                                <div class="imagen">
-                                <img src="Princesas de los animales.jpg" alt="Princesa de los animales">
-                            </div>
-                            <div>
-                                <p>Princesa de los animales</p>
-                            </div>
-                            </div>
-                            <div class="images-title">
-                                <div class="imagen">
-                                <img src="Barbie_mariposa.jpg" alt="Barbie Mariposa">
-                            </div>
-                            <div>
-                                <p>Barbie Mariposa</p>
-                            </div>
-                            </div>
-                            <div class="images-title">
-                                <div class="imagen">
-                                <img src="Barbie_rapunzel.jpg" alt="Barbie Rapunzel">
-                            </div>
-                            <div>
-                                <p>Nombre pelicula</p>
-                            </div>
-                            </div>
-                            <div class="images-title">
-                                <div class="imagen">
-                                <img src="barbie_fairytopia_mermaidia-678081461-msmall.jpg" alt="Barbie Fairytopia">
-                            </div>
-                            <div>
-                                <p>Nombre pelicula</p>
-                            </div>
-                            </div>
-                            <div class="images-title">
-                                <div class="imagen">
-                                <img src="Barbie lago de los cisnes.jpg" alt="Barbie lago de los cisnes">
-                            </div>
-                            <div>
-                                <p>Nombre pelicula</p>
-                            </div>
-                            </div>
-                            <div class="images-title">
-                                <div class="imagen">
-                                <img src="Barbie princesa y la costurera.jpg" alt="Barbie princesa y la plebeya">
-                            </div>
-                            <div>
-                                <p>Barbie princesa y la plebeya</p>
-                            </div>
-                            </div>
-                            <div class="images-title">
-                                <div class="imagen">
-                                <img src="Barbie en el cascanueces.jpg" alt="Barbie en el cascanueces">
-                                 </div>
-                            <div>
+                            <div class="title">
                                 <p>Barbie en el cascanueces</p>
                             </div>
                             </div>
                             <div class="images-title">
                                 <div class="imagen">
-                                <img src="Barbie y las 12 bailarinas.jpg" alt="Barbie y las 12 bailarinas">
+                                <img src="./Media/Barbie_rapunzel.jpg" alt="Barbie Rapunzel">
+                            </div>
+                            <div class="title">
+                                <p>Barbie Rapunzel</p>
+                            </div>
+                            </div>
+                            <div class="images-title">
+                                <div class="imagen">
+                                <img src="./Media/Barbie lago de los cisnes.jpg" alt="Barbie el lago de los cisnes">
+                            </div>
+                            <div class="title">
+                                <p>Barbie el Lago de los cisnes</p>
+                            </div>
+                            </div>
+                            <div class="images-title">
+                                <div class="imagen">
+                                <img src="./Media/Barbie princesa y la costurera.jpg" alt="Barbie princesa y la costurera">
+                            </div>
+                            <div class="title">
+                                <p>Barbie princesa y la costurera</p>
+                            </div>
+                            </div>
+                            <div class="images-title">
+                                <div class="imagen">
+                                <img src="./Media/Barbie_y_la_magia_del_pegaso.jpg" alt="Barbie y la magia de pegaso">
+                            </div>
+                            <div class="title">
+                                <p>Barbie y la magia de pegaso</p>
+                            </div>
+                            </div>
+                            <div class="images-title">
+                                <div class="imagen">
+                                <img src="./Media/barbie_fairytopia.jpg" alt="Barbie Fairytopia">
+                            </div>
+                            <div class="title">
+                                <p>Barbie Fairytopia</p>
+                            </div>
+                            </div>
+                            <div class="images-title">
+                                <div class="imagen">
+                                <img src="./Media/barbie_fairytopia.jpg" alt="Barbie Mermaidia">
+                            </div>
+                            <div class="title">
+                                <p>Barbie Mermaidia</p>
+                            </div>
+                            </div>
+                            <div class="images-title">
+                                <div class="imagen">
+                                <img src="./Media/Barbie y las 12 bailarinas.jpg" alt="Barbie y las 12 bailarinas">
                                  </div>
-                            <div>
+                            <div class="title">
                                 <p>Barbie y las 12 bailarinas</p>
+                            </div>
+                            </div>
+                            <div class="images-title">
+                                <div class="imagen">
+                                <img src="./Media/Princesas de los animales.jpg" alt="Barbie y la princesa de los animales">
+                                 </div>
+                            <div class="title">
+                                <p>Barbie y la princesa de los animales</p>
                             </div>
                             </div>
                         </div>
                     </div>
                 </section>
+                <footer class="footer">
+                    <div class="footer_image">
+                        <a href="/">
+                            <img src="" alt="logo footer">
+                        </a>
+                    </div>
+                </footer>
             </main>
     </body>
 </html>
