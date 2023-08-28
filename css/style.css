@@ -2,6 +2,7 @@
 @import "./wrapper.css";
 @import "./movies.css";
 @import "./content.css";
+@import "./footer.css";
 
 :root{
 --color-text: #fffff;
@@ -16,6 +17,7 @@ html{
 }
 }
 body{
+    margin: 0;
     font-family: var(--font);
     background: var(--bg);
 }

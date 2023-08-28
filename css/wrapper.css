@@ -5,11 +5,28 @@
 }
 .Description{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    align-items: center;
     margin-top: 50px;
 }
+.Description div{
+    margin: 10px;
+    color: #eeee;
+}
+.Description > :first-child  {
+    border-right: 3px solid white;
+    font-size: 22px;
+    padding: 10px;
+}
+.Description > :last-child{
+    font-size: 18px;
+    padding: 10px;
+}
 .img-logo > img{
-    width: 100%;
+    width: 900px;
     height: auto;
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
